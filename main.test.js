@@ -18,7 +18,7 @@ describe("Basic tests",() =>{
       assert.deepEqual(primeTextbooks([7, 12, 17, 22, 27, 33, 43]), [7, 17, 43]);
       assert.deepEqual(primeTextbooks([41, 76, 111, 146, 179, 214, 251]), [41, 179, 251]);
       assert.deepEqual(primeTextbooks([79, 114, 149, 186, 227, 262, 293]), [79, 149, 227, 293]);
-      assert.deepEqual (primeTextbooks([523, 881, 1298, 1867, 2281, 2663, 3023, 3547, 4079, 4637]), [523, 881, 1867, 2281, 3547, 4079, 4637]);
+      assert.deepEqual(primeTextbooks([523, 881, 1298, 1867, 2281, 2663, 3023, 3547, 4079, 4637]), [523, 881, 1867, 2281, 3547, 4079, 4637]);
 
 
 
