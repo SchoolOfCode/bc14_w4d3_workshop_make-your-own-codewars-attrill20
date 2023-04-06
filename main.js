@@ -7,6 +7,8 @@ Your job is to check all of his textbooks (tests made up of arrays of positive i
 
 *Reminder - a prime number is a number that can be divided only by itself and 1.*
 
+e.g. turn [1,2,3,4,5,6,7,8,9,10] into [2,3,5,7]
+
 Good luck!
 */
 
