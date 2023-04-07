@@ -8,11 +8,21 @@
     // include a blank array (should reutrn a blank array)
     // include an array with multiples of the same prime (should return all the multiples)
 
+    import {test, expect} from "@jest/globals"
+
+    import{primeTextbooks} from "./main.js"
 
 
-Test.assertEquals 
-describe("Basic tests",() =>{
-    it("Testing for fixed tests", () => {
+
+test("Does input of primes return true?", function () {
+    let actual = primeTextbooks([2,3,5,7]);
+expect(actual).toBe(true);
+})
+
+//Test.assertEquals 
+//describe("Basic tests",() =>{
+//it("Testing for fixed tests", () => {
+
       assert.deepEqual(primeTextbooks([1,2,3,4,5,6,7,8,9,10]), [2,3,5,7]);
       assert.deepEqual(primeTextbooks([2, 7, 12, 17, 21, 29, 31]), [2, 7, 29, 31]);
       assert.deepEqual(primeTextbooks([7, 12, 17, 22, 27, 33, 43]), [7, 17, 43]);

@@ -3,17 +3,7 @@
 // if it is prime, add it to a new array
 // return the new array
 
-function primeTextbooks (arr) {  
-    let primeArray = [];
-    for (let i = 0; i < arr.length; i++) {
-        if (isPrime(arr[i])) {
-            primeArray.push(arr[i]);
-        }
-    }
-    return primeArray;
-}
 
-// does the 'isPrime' function work?
 
 // ChatGPT solution:
 
@@ -52,3 +42,15 @@ If it is divisible by any of these integers, we know it is not prime, so we set 
 Finally, if isPrime is still true after the loop, we know that the number is prime, so we add it to the primes array using the push method.
 After iterating over all the numbers in the input array, we return the primes array.
 */
+
+function primeTextbooks (arr) {  
+    let primeArray = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (isPrime(arr[i])) {
+            primeArray.push(arr[i]);
+        }
+    }
+    return primeArray;
+}
+
+// does the 'isPrime' function work?
